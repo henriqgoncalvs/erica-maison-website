@@ -11,7 +11,7 @@ import {
 const Manifest = () => (
   <ManifestStyled>
     <ManifestText>
-      Érica Gonçalves, cabeleireira, empresário, megarista e visionária é a proprietária do
+      Érica Gonçalves, cabeleireira, empresária, megarista e visionária é a proprietária do
       mais completo espaço de embelezamento da região.
       Com a participação de parceiras e colaboradoras,
       tem a certeza que você saíra ainda mais linda e feliz.
