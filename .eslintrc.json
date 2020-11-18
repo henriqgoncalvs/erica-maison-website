@@ -1,0 +1,41 @@
+{
+  "env": {
+      "browser": true,
+      "es6": true
+  },
+  "settings": {
+      "import/resolver": {
+          "node": {
+          "moduleDirectory": ["node_modules", "src/"]
+          }
+      }
+  },
+  "extends": [
+      "plugin:react/recommended",
+      "airbnb"
+  ],
+  "globals": {
+      "Atomics": "readonly",
+      "SharedArrayBuffer": "readonly"
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+      "ecmaFeatures": {
+          "jsx": true
+      },
+      "ecmaVersion": 2018,
+      "sourceType": "module"
+  },
+  "plugins": [
+      "react",
+      "react-hooks"
+  ],
+  "rules": {
+      "react-hooks/rules-of-hooks": "warn",
+      "react-hooks/exhaustive-deps": "warn",
+      "linebreak-style": "off",
+      "react/prop-types": "off",
+      "react/jsx-props-no-spreading": "off",
+      "import/prefer-default-export": "off"
+  }
+}
