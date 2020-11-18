@@ -2,6 +2,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
+import { Link } from 'react-router-dom';
 
 import marcaErica from 'assets/logo/marca_erica.png';
 import arrowTopRight from 'assets/icons/arrow-top-right.svg';
@@ -67,7 +68,9 @@ const Navbar = () => {
   return (
     <>
       <NavbarStyled ref={(el) => (navRef = el)}>
-        <Logo src={marcaErica} />
+        <Link to="/">
+          <Logo src={marcaErica} />
+        </Link>
 
         <MenuWrapper onClick={toggleMenu}>
           <Menu menuOpen={menuOpen ? opacityMenuOpen : menuOpen} />
@@ -83,19 +86,19 @@ const Navbar = () => {
 
           <NavOpenLinks>
             <NavOpenLinkWrapper>
-              <NavOpenLink ref={(el) => (link1 = el)}>
+              <NavOpenLink to="/maison" ref={(el) => (link1 = el)}>
                 O Maison
               </NavOpenLink>
             </NavOpenLinkWrapper>
 
             <NavOpenLinkWrapper>
-              <NavOpenLink ref={(el) => (link2 = el)}>
+              <NavOpenLink to="/nanopele" ref={(el) => (link2 = el)}>
                 A Nanopele
               </NavOpenLink>
             </NavOpenLinkWrapper>
 
             <NavOpenLinkWrapper>
-              <NavOpenLink ref={(el) => (link3 = el)}>
+              <NavOpenLink to="/contato" ref={(el) => (link3 = el)}>
                 Contato
               </NavOpenLink>
             </NavOpenLinkWrapper>

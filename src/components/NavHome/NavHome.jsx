@@ -7,7 +7,7 @@ import {
 
 const NavHome = () => (
   <NavHomeStyled name="NavHome">
-    <NavButton>
+    <NavButton to="/maison">
       O Maison
     </NavButton>
     <NavButton>
