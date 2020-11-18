@@ -10,10 +10,10 @@ const NavHome = () => (
     <NavButton to="/maison">
       O Maison
     </NavButton>
-    <NavButton>
+    <NavButton to="/nanopele">
       A Nanopele
     </NavButton>
-    <NavButton>
+    <NavButton to="/contato">
       Contato
     </NavButton>
   </NavHomeStyled>
