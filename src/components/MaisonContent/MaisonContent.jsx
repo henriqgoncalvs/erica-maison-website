@@ -41,17 +41,21 @@ const MaisonContent = () => (
     </SectionList>
 
     <SectionList title="OUTROS SERVIÇOS">
-      <SectionList.Link link="https://instagram.com/ericagoncalvesmaison">
+      <SectionList.Link link="https://www.instagram.com/maria_aparecida031/">
         Nails
         <img src={arrowTopRight} alt="Visitar Nails" />
       </SectionList.Link>
-      <SectionList.Link link="https://instagram.com/ericagoncalvesmaison">
+      <SectionList.Link link="https://www.instagram.com/marinsmakeup/">
         Make
         <img src={arrowTopRight} alt="Visitar Make" />
       </SectionList.Link>
-      <SectionList.Link link="https://instagram.com/ericagoncalvesmaison">
+      <SectionList.Link link="https://www.instagram.com/soul.pnz/">
         Bar
         <img src={arrowTopRight} alt="Visitar Bar" />
+      </SectionList.Link>
+      <SectionList.Link link="https://www.instagram.com/samaravelo/">
+        Design e Depil
+        <img src={arrowTopRight} alt="Visitar Design e Depil" />
       </SectionList.Link>
     </SectionList>
 
