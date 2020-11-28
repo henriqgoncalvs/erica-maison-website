@@ -50,10 +50,6 @@ const MaisonContent = () => (
         <img src={arrowTopRight} alt="Visitar Make" />
       </SectionList.Link>
       <SectionList.Link link="https://instagram.com/ericagoncalvesmaison">
-        Spa
-        <img src={arrowTopRight} alt="Visitar Spa" />
-      </SectionList.Link>
-      <SectionList.Link link="https://instagram.com/ericagoncalvesmaison">
         Bar
         <img src={arrowTopRight} alt="Visitar Bar" />
       </SectionList.Link>

@@ -4,9 +4,14 @@ export const FooterStyled = styled.div`
   width: 95%;
   max-width: 1300px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   margin: 20px auto;
+
+  @media (max-width: 1000px) {
+    width: 85%;
+  }
 `;
 
 export const Signature = styled.span`
@@ -30,11 +35,22 @@ export const Signature = styled.span`
   a:hover {
     opacity: 1;
   }
+
+  @media (max-width: 600px) {
+    flex: 70%;
+    order: 2;
+  }
 `;
 
 export const Logo = styled.img`
   max-width: 140px;
   flex-basis: 50%;
+
+  @media (max-width: 600px) {
+    flex: 1 1 100%;
+    order: 1;
+    margin: 10px auto 30px;
+  }
 `;
 
 export const LinksWrapper = styled.div`
@@ -42,6 +58,11 @@ export const LinksWrapper = styled.div`
   flex-direction: column;
   align-items: flex-end;
   flex-basis: 25%;
+
+  @media (max-width: 600px) {
+    flex: 30%;
+    order: 3;
+  }
 `;
 
 export const LinkStyled = styled.a`

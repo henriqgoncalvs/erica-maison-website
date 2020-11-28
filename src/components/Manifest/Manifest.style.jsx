@@ -12,6 +12,10 @@ export const ManifestStyled = styled.div`
 
 export const ManifestText = styled.span`
   font-size: 30px;
+
+  @media (max-width: 600px) {
+    line-height: 40px;
+  }
 `;
 
 export const CTAButton = styled.a`
@@ -27,7 +31,7 @@ export const CTAButton = styled.a`
   color: rgb(214, 214, 214);
   width: max-content;
   position: relative;
-  z-index: 9999;
+  z-index: 1000;
   transition: all .4s ease-in-out;
   bottom: 0;
 

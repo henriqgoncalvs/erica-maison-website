@@ -54,8 +54,6 @@ const HeroHome = () => {
           <br />
           MAKE
           <br />
-          SPA
-          <br />
           BAR
         </SliderMeta>
         <SliderTitle>

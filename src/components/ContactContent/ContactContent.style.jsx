@@ -9,6 +9,11 @@ export const ContactContainer = styled.div`
   height: 100vh;
   padding-top: 10vh;
   margin-bottom: 50px;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    height: auto;
+  }
 `;
 
 export const ContactPhotoContainer = styled.div`
@@ -18,6 +23,11 @@ export const ContactPhotoContainer = styled.div`
   width: 50%;
   background: #cfc6c3;
   height: 100%;
+
+  @media (max-width: 600px) {
+    width: 100%;
+    height: 60vh;
+  }
 `;
 
 export const ContactPhoto = styled.div`
@@ -25,6 +35,10 @@ export const ContactPhoto = styled.div`
   background-size: cover;
   width: 50%;
   height: 60%;
+
+  @media (max-width: 600px) {
+    width: 70%;
+  }
 `;
 
 export const ContactInfo = styled.div`
@@ -35,6 +49,11 @@ export const ContactInfo = styled.div`
   justify-content: flex-start;
   width: 50%;
   height: 100%;
+
+  @media (max-width: 600px) {
+    padding: 50px 0 0px;
+    width: 85%;
+  }
 `;
 
 export const ContactInfoHeader = styled.h1`

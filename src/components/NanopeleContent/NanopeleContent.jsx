@@ -1,10 +1,10 @@
 import React from 'react';
 import { ParallaxProvider, Parallax } from 'react-scroll-parallax';
 
-import nanopele1 from 'assets/nanopele_1.webp';
-import nanopele2 from 'assets/nanopele_2.webp';
-import nanopele3 from 'assets/nanopele_3.webp';
-import nanopele4 from 'assets/nanopele_4.webp';
+import nanopele from 'assets/nanopele.png';
+import escolhaCabelo from 'assets/escolha-cabelo.png';
+import gel from 'assets/gel.png';
+import costura from 'assets/costura.png';
 
 import arrowTopRight from 'assets/icons/arrow-top-right.svg';
 
@@ -30,11 +30,12 @@ const NanopeleContent = () => (
         Nanopele
         <NanopeleContentHeaderPhoto>
           <Parallax y={[-15, 15]} tagOuter="figure">
-            <img src={nanopele3} alt="Nanopele" />
+            <img src={nanopele} alt="Nanopele" />
           </Parallax>
         </NanopeleContentHeaderPhoto>
         <NanopeleContentDesc>
-          Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Método de alongamento delicado, moderno e que não agride seus cabelos.
+          Consiste em faixas de cabelo e com costura para maior durabilidade.
         </NanopeleContentDesc>
       </NanopeleContentHeader>
 
@@ -44,14 +45,15 @@ const NanopeleContent = () => (
             Escolha do cabelo
           </NanopeleSectionTitle>
           <NanopeleSectionDesc>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry`&apos;`s
-            standard dummy text ever since the 1500s
+            Mais importante até que o alongamento, é a escolha dos cabelos.
+            Partimos da necessidade de escolher algum fio com a textura o
+            mais próximo da cliente. Depois escolhemos o volume que seja
+            condizente com o da cliente, para então escolher-mos o comprimento.
           </NanopeleSectionDesc>
         </NanopeleSectionContent>
         <NanopeleSectionPhoto>
           <Parallax y={[-10, 10]} tagOuter="figure">
-            <img src={nanopele1} alt="Escolha do cabelo" />
+            <img src={escolhaCabelo} alt="Escolha do cabelo" />
           </Parallax>
         </NanopeleSectionPhoto>
       </NanopeleHair>
@@ -59,7 +61,7 @@ const NanopeleContent = () => (
       <NanopeleGel>
         <NanopeleSectionPhoto>
           <Parallax y={[-10, 10]} tagOuter="figure">
-            <img src={nanopele2} alt="Escolha do cabelo" />
+            <img src={gel} alt="Distribuição do gel" />
           </Parallax>
         </NanopeleSectionPhoto>
         <NanopeleSectionContent>
@@ -67,9 +69,11 @@ const NanopeleContent = () => (
             Distribuição do gel
           </NanopeleSectionTitle>
           <NanopeleSectionDesc>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry`&apos;`s
-            standard dummy text ever since the 1500s
+            O gel consiste na durabilidade e largura da faixa.
+            Usamos gel de alta qualidade para que sua faixa seja
+            a mais duradoura possível. Como equipamentos de
+            selamento que fazem a fusão dos fios e do gel para
+            deixá-las ainda mais fininhas
           </NanopeleSectionDesc>
         </NanopeleSectionContent>
       </NanopeleGel>
@@ -80,9 +84,15 @@ const NanopeleContent = () => (
             Costura imperceptível
           </NanopeleSectionTitle>
           <NanopeleSectionDesc>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry`&apos;`s
-            standard dummy text ever since the 1500s
+            Após vários cursos de tecimento de fios,
+            chegamos a perfeição das Nanopeles:
+            a nanopele invisible! Depois de todo
+            processo de escolha de fios, aplicação e
+            selagem dos fios, arrematamos essas faixas
+            com uma costura para que sua faixa não tenha
+            perca de fios nem de qualidade. Tudo isso para
+            que nosso serviço seja digno de elogios por
+            todas as clientes que escolheram nosso método.
           </NanopeleSectionDesc>
           <NanopeleCTA href="https://google.com">
             VER O CURSO
@@ -90,7 +100,9 @@ const NanopeleContent = () => (
           </NanopeleCTA>
         </NanopeleSectionContent>
         <NanopeleSectionPhoto>
-          <img src={nanopele4} alt="Escolha do cabelo" />
+          <Parallax y={[-10, 10]} tagOuter="figure">
+            <img src={costura} alt="Costura imperceptível " />
+          </Parallax>
         </NanopeleSectionPhoto>
       </NanopeleSeam>
 

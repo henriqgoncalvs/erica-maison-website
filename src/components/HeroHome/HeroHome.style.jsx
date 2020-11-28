@@ -8,6 +8,25 @@ export const HeroStyled = styled.div`
 
   .VideoBg-module_wrapper__3FlD_ {
     position: absolute;
+
+    .VideoBg-module_video__2IPmN {
+      display: initial!important;
+    }
+
+  }
+
+  @media (max-width: 600px) {
+    .VideoBg-module_wrapper__3FlD_ {
+      position: absolute;
+      right: 50%;
+      width: 100%;
+
+      .VideoBg-module_video__2IPmN {
+        display: initial!important;
+        transform: translateX(35%);
+      }
+      
+    }
   }
 `;
 
@@ -23,6 +42,14 @@ export const SliderContentWrapper = styled.div`
   /* height: 41.5%; */
   /* display: flex;
     align-items: flex-end; */
+
+  @media (max-width: 1000px) {
+    width: 75%;
+  } 
+
+  @media (max-width: 600px) {
+    width: 90%;
+  }
 `;
 
 export const SliderMeta = styled.span`
@@ -33,6 +60,18 @@ export const SliderMeta = styled.span`
   font-family: 'Lato', sans-serif;
   /* position: absolute; */
   /* top: 0; */
+
+  @media (max-width: 1000px) {
+    font-size: 24px;
+    line-height: 33px;
+    width: 90px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 18px;
+    line-height: 23px;
+    width: 65px;
+  }
 `;
 
 export const SliderTitle = styled.span`
@@ -41,6 +80,16 @@ export const SliderTitle = styled.span`
   /* position: absolute; */
   /* bottom: 0; */
   width: 100%;
+
+  @media (max-width: 1000px) {
+    font-size: 100px;
+    line-height: 100px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 60px;
+    line-height: 60px;
+  }
 `;
 
 const buttonAnimation = keyframes`

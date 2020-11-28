@@ -70,6 +70,10 @@ export const NavbarOpened = styled.div`
   display: flex;
   align-items: center;
   flex-direction: column;
+
+  @media (max-width: 600px) {
+    background-color: rgba(27,27,27, 1);
+  } 
 `;
 
 export const NavOpenLinks = styled.div`
@@ -78,6 +82,11 @@ export const NavOpenLinks = styled.div`
   margin: auto;
   height: 70%;
   justify-content: space-between;
+
+  @media (max-width: 600px) {
+    padding: 0px 20px;
+    height: 60%;
+  }
 `;
 
 export const NavOpenLinkWrapper = styled.div`
@@ -101,6 +110,10 @@ export const NavOpenLink = styled(Link)`
   text-align: center;
   opacity: .6;
   transition: all .2s ease-in-out;
+
+  @media (max-width: 600px) {
+    font-size: 60px;
+  }
 `;
 
 export const NavOpenFooterLink = styled.a`
@@ -120,6 +133,14 @@ export const NavOpenFooterLink = styled.a`
 
   &:hover {
     opacity: 1;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+
+    img {
+      width: 25px;
+    }
   }
 
 `;

@@ -4,11 +4,13 @@ import { BrowserRouter } from 'react-router-dom';
 import { withGlobalProvider } from 'contexts/GlobalProvider';
 import GlobalStyle from 'styles/GlobalStyle';
 
+import PageLoading from 'components/PageLoading';
+
 import Main from 'routes/Main';
 
 const App = () => (
   <BrowserRouter>
-    <Suspense fallback={(<h1>Carregando</h1>)}>
+    <Suspense fallback={(<PageLoading />)}>
       <GlobalStyle />
       <Main />
     </Suspense>

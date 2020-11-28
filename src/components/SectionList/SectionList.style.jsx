@@ -19,6 +19,11 @@ export const Item = styled.span`
   font-size: 30px;
   font-weight: 300;
   margin-bottom: 2px;
+
+  @media (max-width: 600px) {
+    font-size: 35px;
+    margin-bottom: 4px;
+  }
 `;
 
 export const ItemLink = styled.a`
@@ -36,5 +41,10 @@ export const ItemLink = styled.a`
   &:hover img {
     margin-bottom: 5px;
     margin-left: 5px;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 35px;
+    margin-bottom: 4px;
   }
 `;

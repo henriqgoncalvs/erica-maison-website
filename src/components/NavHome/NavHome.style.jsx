@@ -10,6 +10,11 @@ export const NavHomeStyled = styled(Element)`
   display: flex;
   align-items: center;
   justify-content: space-evenly;
+
+  @media (max-width: 600px) {
+    flex-direction: column;
+    margin: 100px auto;
+  }
 `;
 
 export const NavButton = styled(Link)`
@@ -22,5 +27,11 @@ export const NavButton = styled(Link)`
 
   &:hover {
     opacity: 1;
+  }
+
+  @media (max-width: 600px) {
+    font-size: 35px;
+    margin: 25px;
+    text-align: center;
   }
 `;
