@@ -1,12 +1,13 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=150px height=100px src="https://ericagoncalvesmaison.netlify.app/static/media/marca_erica.58cf3cc0.png" alt="Erica Goncalves Logo"></a>
+ <img width="200" src="https://ericagoncalvesmaison.netlify.app/static/media/marca_erica.58cf3cc0.png" alt="Erica Goncalves Logo"></a>
 </p>
 
 <h3 align="center">Erica Goncalves Maison</h3>
 
 <div align="center">
 
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/5a650695-50b4-46b5-aa02-ff65ec0cdb59/deploy-status)](https://app.netlify.com/sites/ericagoncalvesmaison/deploys)
   [![Status](https://img.shields.io/badge/status-active-success.svg)]() 
   [![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
